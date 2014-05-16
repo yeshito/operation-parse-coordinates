@@ -8,6 +8,10 @@ your targets' locations.
 Your mission, should you choose to accept it, it to be able to parse these maps, and derive
 X and Y coordinates from it.
 
+* The maps can be any size.
+* The X-axis starts at 0, and increases as it goes right.
+* The Y-axis starts at 0, and decreases as it goes down.
+
 ## Examples
 
 Given the following map, the coordinates would be `[0,0]`
@@ -22,23 +26,24 @@ Given the following map, the coordinates would be `[0,0]`
 
 Given the following map, the coordinates would be `[1, -2]`
 
-    +==========+
-    |**********|
-    |**********|
-    |*X********|
-    |**********|
-    |**********|
-    +==========+
+    +======+
+    |******|
+    |******|
+    |*X****|
+    +======+
 
 Given the following map, the coordinates would be `[6, -3]`
 
-    +==========+
-    |**********|
-    |**********|
-    |**********|
-    |******X***|
-    |**********|
-    +==========+
+    +===================================+
+    |***********************************|
+    |***********************************|
+    |***********************************|
+    |******X****************************|
+    |***********************************|
+    |***********************************|
+    |***********************************|
+    |***********************************|
+    +===================================+
 
 # Extra
 
